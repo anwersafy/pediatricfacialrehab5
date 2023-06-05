@@ -1,0 +1,108 @@
+name: pediatricfacialrehab
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  #image_picker: ^0.8.5+3
+
+  screenshot: ^1.2.1
+  camera: ^0.9.4+5
+  video_player: ^2.5.3
+  circular_countdown: ^2.1.0
+  #flutter_rating_bar: ^4.0.1
+  flutter_custom_clippers: ^2.1.0
+  google_mlkit_face_detection: ^0.5.0
+  google_ml_kit: ^0.13.0
+  #tflite: ^1.1.2
+  flutter_bloc: ^8.1.2
+  bloc: ^8.1.1
+  #tflite_flutter: ^0.9.0
+  wave: ^0.2.2
+  modal_bottom_sheet: ^2.1.2
+  custom_slider: ^0.0.3
+  syncfusion_flutter_sliders: ^20.4.42
+  equatable: ^2.0.5
+  path: ^1.8.2
+  shared_preferences: ^2.0.18
+  flutter_local_notifications: ^11.0.0
+  intl: ^0.18.0
+  flutter_native_timezone: ^2.0.0
+  http: ^0.13.5
+  rxdart: ^0.27.7
+  #image: ^4.0.15
+  permission_handler: ^10.2.0
+  timezone: ^0.9.1
+  flutter_balloon_slider: ^0.1.1
+  slider_controller: ^0.0.4
+  #face_camera: ^0.0.6
+  flutter_countdown_timer: ^4.1.0
+
+  vimeo_video_player: ^0.0.6
+  circular_countdown_timer: ^0.2.3
+  chewie: ^1.4.0
+  face_detection: ^0.0.6
+#  learning_face_detection: ^0.0.3
+#  learning_input_image: ^0.0.6+2
+
+#  face_camera: ^0.0.6
+#  firebase_ml_vision: ^0.12.0+3
+#  firebase_core: ^2.10.0
+  image_picker: ^0.8.5+3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  isar: ^2.5.0
+  isar_flutter_libs: ^2.5.0
+  path_provider: ^2.0.11
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+
+  flutter_lints: ^2.0.1
+  hive_generator: ^1.1.3
+  isar_generator: any
+  build_runner: any
+
+  flutter_launcher_icons: ^0.9.0
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/Amjad.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/images/Amjad.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/images/Amjad.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/images/Amjad.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+
+    - assets/images/
+    - assets/model2/
+
+    - video/
